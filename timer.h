@@ -1,0 +1,11 @@
+#ifndef TIMER_H
+#define TIMER_H
+class Timer{
+private:
+    double presentTime;
+public:
+    void setTime(double);
+    double getTime();
+};
+
+#endif // TIMER_H
